@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  height: 50px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header-left {
+  margin-left: 110px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.logo {
+  color: #f9faf8;
+}
+
+a.logo:hover {
+  color: #a1a1a1;
+}
+
+.header-right {
+  display: flex;
+  gap: 24px;
+  margin-right: 100px;
+}
+
+.header-link,
+.banner-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+a.header-link:hover {
+  color: #9f9fa1;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 150px 100px;
+}
+
+.awesome-text {
+  padding-right: 50px;
+  width: 50%;
+  margin-top: 12px;
+}
+
+.banner-heading {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin-bottom: 12px;
+}
+
+.banner-img img{
+    width: 800px;
+    height: auto;
+}
+
+.sign-button {
+  text-decoration: none;
+  background-color: #3882f6;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.service-section{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.service-heading{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-self: center;
+   
+}
+
+.services{
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    color:#1f2937;
+    font-size: 18px;
+}
+
+.service{
+    text-decoration: none;
+}
+
+.service img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.inspiring-quote{
+    background-color: #e5e7eb;
+    padding: 100px 100px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: Merriweather, serif;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.author{
+    font-weight: 800;
+    text-align: right;
+    color: #1F2937;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px 100px;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 100px;
+    justify-content: space-between;
+}
+
+.call-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-button a{
+    border: 2px solid white;
+}
+
+.call-heading{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.call-text{
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 50px;
+    color:#a1a1a1
+}
